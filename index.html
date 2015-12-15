@@ -2,45 +2,38 @@
 <html lang="pl">
 <head>
 <meta charset="utf-8">
-<meta name="description" content="T">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="./css/bootstrap.min.css">
-<link rel="stylesheet" href="./css/font-awesome.min.css">
-<link rel="stylesheet" href="./css/style.min.css">
+<meta content="Homepage" name="description">
+<meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
+<link href="./css/bootstrap.min.css" rel="stylesheet">
+<link href="./css/font-awesome.min.css" rel="stylesheet">
+<link href="./css/style.min.css" rel="stylesheet">
 <title>Tomasz Jałoszyński</title>
 </head>
 <body>
 <div class="main">
-<div id="navigation">
-<a href="#" id='home_link' class="btn btn-default active" role="button"><i class="fa fa-home"></i>       My info</a>	
-&nbsp;&nbsp;
-<a href="#" id='projects_link' class="btn btn-default disabled" role="button"><i class="fa fa-code-fork"></i>       Projects</a>	
-&nbsp;&nbsp;
-<a href="#" id='resources_link' class="btn btn-default" role="button"><i class="fa fa-bookmark"></i>       Learning</a>	
-&nbsp;&nbsp;
-<a href="#" id='books_link' class="btn btn-default disabled" role="button"><i class="fa fa-book"></i>       Books</a>	
-&nbsp;&nbsp;
-<a href="#" id='blogs_link' class="btn btn-default disabled" role="button"><i class="fa fa-columns"></i>       Blogs</a>	
+<div id="navigation"><a class="btn btn-default active" href="#" id='home_link' role="button"><i class="fa fa-home"></i>
+My info</a> &nbsp;&nbsp; <a class="btn btn-default default_vis disabled" href="#" id='projects_link' role=
+"button"><i class="fa fa-code-fork"></i> My projects</a> &nbsp;&nbsp; <a class="btn btn-default" href="#" id=
+'resources_link' role="button"><i class="fa fa-bookmark"></i> Learning</a> &nbsp;&nbsp; <a class=
+"btn btn-default default_vis disabled" href="#" id='books_link' role="button"><i class="fa fa-book"></i> Books</a>
+&nbsp;&nbsp; <a class="btn btn-default" href="#" id='blogs_link' role="button"><i class="fa fa-columns"></i> Blogs</a>
+&nbsp;&nbsp;</div>
+<div class="default_vis visible_screen" id="main_1">
+<div id="name">Tomasz Jałoszyński
+<p>Software developer<br></p>
 </div>
-<div id="main_1" class="screen visibleScreen">
-<div id="name">
-Tomasz Jałoszyński
-<p>Software developer<br></p></div>
 <div id="coffee"></div>
 <div id="strip"></div>
-<div id="links">
-<a href="mailto:jaloszynski@live.com" class="btn btn-default" role="button"><i class="fa fa-envelope"></i>       Email</a>
-&nbsp;&nbsp;
-<a href="http://www.linkedin.com/in/jaloszynski" class="btn btn-default" role="button"><i class="fa fa-linkedin-square"></i>       LinkedIn</a>
-&nbsp;&nbsp;
-<a href="https://github.com/Coffeephile" class="btn btn-default" role="button"><i class="fa fa-github-square"></i>       GitHub</a>
-&nbsp;&nbsp;
-<a href="http://www.meetup.com/members/43028612/" class="btn btn-default" role="button"><i class="fa fa-beer"></i>       MeetUp</a>
-&nbsp;&nbsp;
-<a href="https://twitter.com/Coffeephile" class="btn btn-default" role="button"><i class="fa fa-twitter"></i>       Twitter</a>
+<div id="links"><a class="btn btn-default" href="mailto:jaloszynski@live.com" role="button"><span class=
+"glyphicon glyphicon-envelope"></span> Email</a> &nbsp;&nbsp; <a class="btn btn-default" href=
+"http://www.linkedin.com/in/jaloszynski" role="button"><i class="fa fa-linkedin-square"></i> LinkedIn</a> &nbsp;&nbsp;
+<a class="btn btn-default" href="https://github.com/Coffeephile" role="button"><i class="fa fa-github-square"></i>
+GitHub</a> &nbsp;&nbsp; <a class="btn btn-default" href="http://www.meetup.com/members/43028612/" role=
+"button"><i class="fa fa-beer"></i> MeetUp</a> &nbsp;&nbsp; <a class="btn btn-default" href=
+"https://www.facebook.com/coffeephile" role="button"><i class="fa fa-facebook-square"></i> Facebook</a>
+&nbsp;&nbsp;</div>
 </div>
-</div>
-<div id="main_2" class="screen">
+<div class="default_vis" id="main_2">
 <div class="panel panel-default">
 <div class="panel-heading">Daily coffee news</div>
 <ul class="list-group">
@@ -60,13 +53,16 @@ Tomasz Jałoszyński
 <div class="panel-heading">Magazines</div>
 <ul class="list-group">
 <li class="list-group-item"><a href="http://msdn.microsoft.com/en-us/magazine/default.aspx">MSDN Magazine</a></li>
-<li class="list-group-item"><a href="http://sdjournal.pl/">SDJournal</a>&nbsp;<span class="label label-info">PL</span></li>
+<li class="list-group-item"><a href="http://sdjournal.pl/">SDJournal</a>&nbsp;<span class=
+"label label-info">PL</span></li>
 </ul>
 </div>
 <div class="panel panel-default">
 <div class="panel-heading">Javascript front-end</div>
 <ul class="list-group">
-<li class="list-group-item"><a href="https://github.com/getify/You-Dont-Know-JS/blob/master/README.md#you-dont-know-js-book-series">You Dont Know JS</a></li>
+<li class="list-group-item"><a href=
+"https://github.com/getify/You-Dont-Know-JS/blob/master/README.md#you-dont-know-js-book-series">You Dont Know
+JS</a></li>
 <li class="list-group-item"><a href="http://www.html5rocks.com/">HTML5 Rocks</a></li>
 <li class="list-group-item"><a href="http://superherojs.com/">Superhero JS</a></li>
 </ul>
@@ -77,20 +73,45 @@ Tomasz Jałoszyński
 <li class="list-group-item"><a href="http://learnyousomeerlang.com/content">Learn you some Erlang</a></li>
 </ul>
 </div>
+</div>
+<div class="default_vis" id="main_3">
 <div class="panel panel-default">
-<div class="panel-heading">Open Courses</div>
+<div class="panel-heading">Javascript</div>
 <ul class="list-group">
-<li class="list-group-item"><a href="http://ocw.mit.edu/index.htm">MIT Open Courseware</a></li>
-<li class="list-group-item"><a href="https://www.coursera.org/">Coursera</a></li>
-<li class="list-group-item"><a href="https://www.udacity.com/">Udacity</a></li>
-<li class="list-group-item"><a href="http://wazniak.mimuw.edu.pl/index.php?title=Strona_g%C5%82%C3%B3wna">MIMUW</a>&nbsp;<span class="label label-info">PL</span></li>
-<li class="list-group-item"><a href="http://edu.pjwstk.edu.pl/wyklady/">PJWSTK</a>&nbsp;<span class="label label-info">PL</span></li>
+<li class="list-group-item"><a href="http://www.paulirish.com/">Paul Irish</a></li>
+<li class="list-group-item"><a href="http://www.2ality.com/">Axel Rauschmayer</a></li>
+<li class="list-group-item"><a href="http://addyosmani.com/blog/">Addy Osmani</a></li>
+<li class="list-group-item"><a href="https://medium.com/@_ericelliott">Eric Elliott</a></li>
+<li class="list-group-item"><a href="https://www.nczonline.net/index.html">Nicholas C. Zakas</a></li>
+<li class="list-group-item"><a href="http://wesbos.com/blog">Wes Bos</a></li>
+</ul>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">UI/UX</div>
+<ul class="list-group">
+<li class="list-group-item"><a href="http://www.lukew.com/ff/">Luke Wroblewski</a></li>
+</ul>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">Web security</div>
+<ul class="list-group">
+<li class="list-group-item"><a href="http://www.troyhunt.com/">Troy Hunt</a></li>
+</ul>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">Microsoft</div>
+<ul class="list-group">
+<li class="list-group-item"><a href="http://www.hanselman.com/">Scott Hanselman</a></li>
+</ul>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">Others</div>
+<ul class="list-group">
+<li class="list-group-item"><a href="http://www.paulgraham.com/articles.html">Paul Graham</a></li>
+<li class="list-group-item"><a href="http://blog.codinghorror.com/">Jeff Atwood</a></li>
 </ul>
 </div>
 </div>
-</div>
-</body>
-<script src="./js/zepto.min.js"></script>
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -98,8 +119,8 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 ga('create', 'UA-5535807-2', 'auto');
 ga('send', 'pageview');
-</script>
-<script>
-var coffeewebsite={};(function(c){var d=0;var b=[];var f=[];var e=0;b.push("main_1");b.push("main_2");f.push("home_link");f.push("resources_link");e=b.length;var g=function(j){for(var h=0;h<e;h++){if(h!==j){$("#"+b[h]).removeClass("visibleScreen");$("#"+f[h]).removeClass("active")}else{$("#"+b[h]).addClass("visibleScreen");$("#"+f[h]).addClass("active")}}};var a=function(h){d=h;g(d)};$("#"+f[0]).on("click",function(){a(0)});$("#"+f[1]).on("click",function(){a(1)})}(coffeewebsite));
-</script>
+</script> 
+<script src="./js/zepto.min.js"></script> 
+<script src="./js/app.min.js"></script></div>
+</body>
 </html>
